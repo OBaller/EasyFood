@@ -35,7 +35,9 @@ class OnboardingViewController: UIViewController {
             OnboardingSlide(title: "Instant World-Wide Delivery", description: "Your orders will be delivered instantly irrespective of your location around the world", image: #imageLiteral(resourceName: "Sidney"))
         ]
         
+        pageControl.numberOfPages = slides.count
     }
+    
     @IBAction func nextButtonPressed(_ sender: UIButton) {
         if currentPage == slides.count - 1 {
             let controller = storyboard?.instantiateViewController(identifier: "HomeNC") as! UINavigationController

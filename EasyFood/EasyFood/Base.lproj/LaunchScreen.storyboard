@@ -15,26 +15,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleAspectFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="qOR-Et-NPO">
-                                <rect key="frame" x="136.5" y="382" width="141.5" height="132"/>
-                                <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="OkIcon" translatesAutoresizingMaskIntoConstraints="NO" id="wPg-NU-R3b">
-                                        <rect key="frame" x="25" y="0.0" width="91.5" height="61"/>
-                                    </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EasyFoods" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wLq-9X-Ee2">
-                                        <rect key="frame" x="0.0" y="71" width="141.5" height="61"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                        <color key="textColor" red="0.79215686269999996" green="0.96862745100000003" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="i love food" translatesAutoresizingMaskIntoConstraints="NO" id="ad6-4r-hE5">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EasyFood" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J4X-hl-AeP">
+                                <rect key="frame" x="113" y="360" width="188" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="LZw-Sh-zCW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="qOR-Et-NPO" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="b3X-7y-6fw"/>
-                            <constraint firstItem="qOR-Et-NPO" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="oTO-OJ-3OR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="J4X-hl-AeP" secondAttribute="trailing" constant="113" id="0eZ-6R-RVq"/>
+                            <constraint firstItem="J4X-hl-AeP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="113" id="bKN-rB-TaK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="J4X-hl-AeP" secondAttribute="bottom" constant="454" id="cKR-x3-bIx"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -44,6 +44,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="OkIcon" width="91.5" height="61"/>
+        <image name="i love food" width="208.66667175292969" height="208.66667175292969"/>
     </resources>
 </document>

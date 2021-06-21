@@ -16,6 +16,7 @@
 		18F140A326738689006B022E /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F140A226738689006B022E /* UIView+Extension.swift */; };
 		18F140A526738889006B022E /* OnboardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F140A426738889006B022E /* OnboardingSlide.swift */; };
 		18F140A726738E9D006B022E /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F140A626738E9D006B022E /* OnboardingCollectionViewCell.swift */; };
+		18F140AE267558DC006B022E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F140AD267558DC006B022E /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		18F140A226738689006B022E /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		18F140A426738889006B022E /* OnboardingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSlide.swift; sourceTree = "<group>"; };
 		18F140A626738E9D006B022E /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		18F140AD267558DC006B022E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,8 +114,17 @@
 			isa = PBXGroup;
 			children = (
 				18F140A226738689006B022E /* UIView+Extension.swift */,
+				18F140AC26755892006B022E /* Home */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		18F140AC26755892006B022E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				18F140AD267558DC006B022E /* HomeViewController.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +202,7 @@
 				18F140842672D294006B022E /* SceneDelegate.swift in Sources */,
 				18F140A326738689006B022E /* UIView+Extension.swift in Sources */,
 				18F140A0267381D4006B022E /* OnboardingViewController.swift in Sources */,
+				18F140AE267558DC006B022E /* HomeViewController.swift in Sources */,
 				18F140A726738E9D006B022E /* OnboardingCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
