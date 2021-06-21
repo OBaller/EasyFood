@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18D67D23268018AA008D4C6F /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D67D21268018AA008D4C6F /* CategoryCollectionViewCell.swift */; };
+		18D67D24268018AA008D4C6F /* CategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D67D22268018AA008D4C6F /* CategoryCollectionViewCell.xib */; };
+		18D67D2626801BA4008D4C6F /* DishCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D67D2526801BA4008D4C6F /* DishCategory.swift */; };
 		18F140822672D294006B022E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F140812672D294006B022E /* AppDelegate.swift */; };
 		18F140842672D294006B022E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F140832672D294006B022E /* SceneDelegate.swift */; };
 		18F140892672D294006B022E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F140872672D294006B022E /* Main.storyboard */; };
@@ -17,9 +20,13 @@
 		18F140A526738889006B022E /* OnboardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F140A426738889006B022E /* OnboardingSlide.swift */; };
 		18F140A726738E9D006B022E /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F140A626738E9D006B022E /* OnboardingCollectionViewCell.swift */; };
 		18F140AE267558DC006B022E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F140AD267558DC006B022E /* HomeViewController.swift */; };
+		9857AFC96414EE0D4FA3FD79 /* Pods_EasyFood.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6493B46BA5DE7C6968AEC00 /* Pods_EasyFood.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18D67D21268018AA008D4C6F /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		18D67D22268018AA008D4C6F /* CategoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		18D67D2526801BA4008D4C6F /* DishCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishCategory.swift; sourceTree = "<group>"; };
 		18F1407E2672D294006B022E /* EasyFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F140812672D294006B022E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18F140832672D294006B022E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,6 +39,9 @@
 		18F140A426738889006B022E /* OnboardingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSlide.swift; sourceTree = "<group>"; };
 		18F140A626738E9D006B022E /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
 		18F140AD267558DC006B022E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		58FD6108A89C900570DB5186 /* Pods-EasyFood.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyFood.debug.xcconfig"; path = "Target Support Files/Pods-EasyFood/Pods-EasyFood.debug.xcconfig"; sourceTree = "<group>"; };
+		A6493B46BA5DE7C6968AEC00 /* Pods_EasyFood.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyFood.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C85286965235D736735FC544 /* Pods-EasyFood.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyFood.release.xcconfig"; path = "Target Support Files/Pods-EasyFood/Pods-EasyFood.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,17 +49,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9857AFC96414EE0D4FA3FD79 /* Pods_EasyFood.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01EB4E42841CBDFEEDAC9180 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6493B46BA5DE7C6968AEC00 /* Pods_EasyFood.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18D67D1F2680183A008D4C6F /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		18D67D2026801850008D4C6F /* CategoryCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				18D67D21268018AA008D4C6F /* CategoryCollectionViewCell.swift */,
+				18D67D22268018AA008D4C6F /* CategoryCollectionViewCell.xib */,
+			);
+			path = CategoryCollectionViewCell;
+			sourceTree = "<group>";
+		};
 		18F140752672D294006B022E = {
 			isa = PBXGroup;
 			children = (
 				18F140802672D294006B022E /* EasyFood */,
 				18F1407F2672D294006B022E /* Products */,
+				6D2D7CAA24506A8628185999 /* Pods */,
+				01EB4E42841CBDFEEDAC9180 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				18F140A426738889006B022E /* OnboardingSlide.swift */,
+				18D67D2526801BA4008D4C6F /* DishCategory.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -97,6 +135,8 @@
 		18F1409D26738195006B022E /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
+				18D67D2026801850008D4C6F /* CategoryCollectionViewCell */,
+				18D67D1F2680183A008D4C6F /* CollectionViewCells */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -127,6 +167,16 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
+		6D2D7CAA24506A8628185999 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58FD6108A89C900570DB5186 /* Pods-EasyFood.debug.xcconfig */,
+				C85286965235D736735FC544 /* Pods-EasyFood.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18F140922672D296006B022E /* Build configuration list for PBXNativeTarget "EasyFood" */;
 			buildPhases = (
+				086DDDD902246908B25A545C /* [CP] Check Pods Manifest.lock */,
 				18F1407A2672D294006B022E /* Sources */,
 				18F1407B2672D294006B022E /* Frameworks */,
 				18F1407C2672D294006B022E /* Resources */,
+				DF12E7E1BE7D1DF0D7DDD4EE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -184,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18D67D24268018AA008D4C6F /* CategoryCollectionViewCell.xib in Resources */,
 				18F1408E2672D296006B022E /* LaunchScreen.storyboard in Resources */,
 				18F1408B2672D296006B022E /* Assets.xcassets in Resources */,
 				18F140892672D294006B022E /* Main.storyboard in Resources */,
@@ -192,17 +245,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		086DDDD902246908B25A545C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasyFood-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF12E7E1BE7D1DF0D7DDD4EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasyFood/Pods-EasyFood-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasyFood/Pods-EasyFood-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EasyFood/Pods-EasyFood-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18F1407A2672D294006B022E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18D67D23268018AA008D4C6F /* CategoryCollectionViewCell.swift in Sources */,
 				18F140A526738889006B022E /* OnboardingSlide.swift in Sources */,
 				18F140822672D294006B022E /* AppDelegate.swift in Sources */,
 				18F140842672D294006B022E /* SceneDelegate.swift in Sources */,
 				18F140A326738689006B022E /* UIView+Extension.swift in Sources */,
 				18F140A0267381D4006B022E /* OnboardingViewController.swift in Sources */,
 				18F140AE267558DC006B022E /* HomeViewController.swift in Sources */,
+				18D67D2626801BA4008D4C6F /* DishCategory.swift in Sources */,
 				18F140A726738E9D006B022E /* OnboardingCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,6 +444,7 @@
 		};
 		18F140932672D296006B022E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58FD6108A89C900570DB5186 /* Pods-EasyFood.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -365,6 +463,7 @@
 		};
 		18F140942672D296006B022E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C85286965235D736735FC544 /* Pods-EasyFood.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
